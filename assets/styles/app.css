@@ -1,3 +1,11 @@
-body {
-    background-color: lightgray;
+body{
+    background-color: rgb(229, 18, 18);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+}
+.hns-container {
+    flex-grow: 2;
+    background-color: rgb(229, 18, 18);
+    color:blue;
 }
